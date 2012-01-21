@@ -4,7 +4,7 @@ local L = AceLocale:NewLocale("ElvuiConfig", "deDE")
 if not L then return end
 --Static Popup
 do
-	L["One or more of the changes you have made require a ReloadUI."] = true;
+	L["One or more of the changes you have made require a ReloadUI."] = "Ein oder mehr Änderungen benötigen ein Neuladen";
 end
 
 --General
@@ -14,94 +14,94 @@ do
 
 	L["General"] = "Allgemein";
 	L["ELVUI_DESC"] = "ElvUI is a complete User Interface replacement addon for World of Warcraft.";
-	L["Auto Scale"] = true;
-	L["Automatically scale the User Interface based on your screen resolution"] = true;
-	L["Scale"] = true;
+	L["Auto Scale"] = "Automatische Skalierung";
+	L["Automatically scale the User Interface based on your screen resolution"] = "Automatische skalierung des Interfaces, angepasst an deine Bildschirm-Einstellung";
+	L["Scale"] = "Skalierung";
 	L["Controls the scaling of the entire User Interface"] = true;
-	L["None"] = true;
-	L["You don't have permission to mark targets."] = true;
+	L["None"] = "Kein";
+	L["You don't have permission to mark targets."] = "Du hast keine Rechte um ein Target zu markieren.";
 	L['LOGIN_MSG'] = 'Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at http://www.tukui.org/forums/forum.php?id=84';
-	L['Login Message'] = true;
+	L['Login Message'] = "Login Nachricht";
 	
-	L["Reset Anchors"] = true;
-	L["Reset all frames to their original positions."] = true;
+	L["Reset Anchors"] = "Ankerpunkte zurücksetzen";
+	L["Reset all frames to their original positions."] = "Setze alle Einheiten an Ihre ursprüngliche Position zurück";
 	
 	L['Install'] = "Installation";
 	L['Run the installation process.'] = "Startet den Insallationsprozess";
 	
 	L["Credits"] = true;
 	L['ELVUI_CREDITS'] = "I would like to give out a special shout out to the following people for helping me maintain this addon with testing and coding and people who also have helped me through donations. Please note for donations I'm only posting the names of people who PM'd me on the forums, if your name is missing and you wish to have your name added please PM me."
-	L['Coding:'] = true;
-	L['Testing:'] = true;
-	L['Donations:'] = true;
+	L['Coding:'] = "Programmierung:";
+	L['Testing:'] = "Tester:";
+	L['Donations:'] = "Spenden:";
 	
 	--Installation
-	L["Welcome to ElvUI version %s!"] = true;
+	L["Welcome to ElvUI version %s!"] = "Willkommen bei ElvUI version %s!";
 	L["This install process will help you learn some of the features in ElvUI has to offer and also prepare your user interface for usage."] = true;
 	L["The in-game configuration menu can be accesses by typing the /ec command or by clicking the 'C' button on the minimap. Press the button below if you wish to skip the installation process."] = true;
-	L["Please press the continue button to go onto the next step."] = true;
-	L["Skip Process"] = true;
-	L["ElvUI Installation"] = true;
+	L["Please press the continue button to go onto the next step."] = "Bitte drücke den Weiter Button um zum nächsten Schritt zu gelangen.";
+	L["Skip Process"] = "Schritt überspringen";
+	L["ElvUI Installation"] = "ElvUI Installation";
 	
-	L["CVars"] = true;
+	L["CVars"] = "CVars";
 	L["This part of the installation process sets up your World of Warcraft default options it is recommended you should do this step for everything to behave properly."] = true;
-	L["Please click the button below to setup your CVars."] = true;
-	L["Setup CVars"] = true;
+	L["Please click the button below to setup your CVars."] = "Bitte drücke den Button um die CVars zu installieren.";
+	L["Setup CVars"] = "Installiere CVars";
 	
-	L["Importance: |cff07D400High|r"] = true;
-	L["Importance: |cffD3CF00Medium|r"] = true;
+	L["Importance: |cff07D400High|r"] = "Dringlichkeit: |cff07D400High|r";
+	L["Importance: |cffD3CF00Medium|r"] = "Dringlichkeit: |cffD3CF00Medium|r";
 
-	L["Chat"] = true;
+	L["Chat"] = "Chat";
 	L["This part of the installation process sets up your chat windows names, positions and colors."] = true;
 	L["The chat windows function the same as Blizzard standard chat windows, you can right click the tabs and drag them around, rename, etc. Please click the button below to setup your chat windows."] = true;
 	L["Setup Chat"] = "Chat Einstellungen";
 		
-	L["Installation Complete"] = true;
+	L["Installation Complete"] = "Installation komplett";
 	L["You are now finished with the installation process. Bonus Hint: If you wish to access blizzard micro menu, middle click on the minimap. If you don't have a middle click button then hold down shift and right click the minimap. If you are in need of technical support please visit us at www.tukui.org."] = true;
 	L["Please click the button below so you can setup variables and ReloadUI."] = true;
-	L["Finished"] = true;
-	L["CVars Set"] = true;
-	L["Chat Set"] = true;
-	L['Trade'] = true;
+	L["Finished"] = "Beendet";
+	L["CVars Set"] = "CVars gesetzt";
+	L["Chat Set"] = "Chat gesetzt";
+	L['Trade'] = "Handel";
 	
-	L['Panels'] = true;
-	L['Announce Interrupts'] = true;
+	L['Panels'] = "Leisten";
+	L['Announce Interrupts'] = "Unterbrechungen ankündigen";
 	L['Announce when you interrupt a spell to the specified chat channel.'] = true;
 	L["Movers unlocked. Move them now and click Lock when you are done."] = true;
-	L['Lock'] = true;
+	L['Lock'] = "Sperren";
 	L["This can't be right, you must of broke something! Please turn on lua errors and report the issue to Elv http://www.tukui.org/forums/forum.php?id=146"] = true;
 	
-	L['Panel Width'] = true;
-	L['Panel Height'] = true;
+	L['Panel Width'] = "Leisten Breite";
+	L['Panel Height'] = "Leisten Höhe";
 	L['PANEL_DESC'] = 'Adjust the size of your left and right panels, this will effect your chat and bags.';
-	L['URL Links'] = true;
+	L['URL Links'] = "URL Links";
 	L['Attempt to create URL links inside the chat.'] = true;
-	L['Short Channels'] = true;
-	L['Shorten the channel names in chat.'] = true;
+	L['Short Channels'] = "Kurze Channels";
+	L['Shorten the channel names in chat.'] = "Kurze Channelnamen im Chat";
 	L["Are you sure you want to reset every mover back to it's default position?"] = true;
 	
-	L['Panel Backdrop'] = true;
+	L['Panel Backdrop'] = "Leisten Hintergrund";
 	L['Toggle showing of the left and right chat panels.'] = true;
-	L['Hide Both'] = true;
-	L['Show Both'] = true;
-	L['Left Only'] = true;
-	L['Right Only'] = true;
+	L['Hide Both'] = "Verstecke Hintergrund";
+	L['Show Both'] = "Zeige Hintergrund";
+	L['Left Only'] = "Nur Links";
+	L['Right Only'] = "Nur Rechts";
 	
-	L['Tank'] = true;
-	L['Healer'] = true;
-	L['Melee DPS'] = true;
-	L['Caster DPS'] = true;
-	L["Primary Layout"] = true;
-	L["Secondary Layout"] = true;
-	L["Primary Layout Set"] = true;
-	L["Secondary Layout Set"] = true;
+	L['Tank'] = "Tank";
+	L['Healer'] = "Heiler";
+	L['Melee DPS'] = "Nahkampf DD";
+	L['Caster DPS'] = "Fernkampf DD";
+	L["Primary Layout"] = "Primäres Layout";
+	L["Secondary Layout"] = "Sekundäres Layout";
+	L["Primary Layout Set"] = "Primäres Layout gesetzt";
+	L["Secondary Layout Set"] = "Sekundäres Layout gesetzt";
 	L["You can now choose what layout you wish to use for your primary talents."] = true;
 	L["You can now choose what layout you wish to use for your secondary talents."] = true;
 	L["This will change the layout of your unitframes, raidframes, and datatexts."] = true;
 	
 	L['INCOMPATIBLE_ADDON'] = "The addon %s is not compatible with ElvUI's %s module. Please disable the incompatible addon or module.";
 	
-	L['Panel Texture'] = true;
+	L['Panel Texture'] = "Leisten Texture";
 	L['Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.\n\nPlease Note:\n-The image size recommended is 256x128\n-You must do a complete game restart after adding a file to the folder.\n-The file type must be tga format.\n\nExample: Interface\\AddOns\\ElvUI\\media\\textures\\copy\n\nOr for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.'] = true;
 	L["Are you sure you want to disband the group?"] = true;
 	
@@ -110,76 +110,76 @@ end
 
 --Media	
 do
-	L["Media"] = true;
-	L["Fonts"] = true;
-	L["Font Size"] = true;
+	L["Media"] = "Medien";
+	L["Fonts"] = "Schriftart";
+	L["Font Size"] = "Schriftgröße";
 	L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"] = true;
-	L["Default Font"] = true;
+	L["Default Font"] = "Standard Schriftart";
 	L["The font that the core of the UI will use."] = true;
-	L["UnitFrame Font"] = true;
-	L["The font that unitframes will use"] = true;
-	L["CombatText Font"] = true;
+	L["UnitFrame Font"] = "EInheitenfenster Schrift";
+	L["The font that unitframes will use"] = "Die Schriftart die die Einheitenfenster benutzen.";
+	L["CombatText Font"] = "Kampftext Schriftart";
 	L["The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"] = true;
-	L["Textures"] = true;
-	L["StatusBar Texture"] = true;
-	L["Main statusbar texture."] = true;
-	L["Gloss Texture"] = true;
+	L["Textures"] = "Texturen";
+	L["StatusBar Texture"] = "Statusleisten Texture";
+	L["Main statusbar texture."] = "Haupt-Statusleisten Texture";
+	L["Gloss Texture"] = "Glänzende Texture";
 	L["This gets used by some objects."] = true;
-	L["Colors"] = true;	
-	L["Border Color"] = true;
-	L["Main border color of the UI."] = true;
-	L["Backdrop Color"] = true;
+	L["Colors"] = "Farben";	
+	L["Border Color"] = "Rahmen Farbe";
+	L["Main border color of the UI."] = "Haupt-Hintergrund Farbe des UIs";
+	L["Backdrop Color"] = "Hintergrund Farbe";
 	L["Main backdrop color of the UI."] = true;
 	L["Backdrop Faded Color"] = true;
 	L["Backdrop color of transparent frames"] = true;
-	L["Restore Defaults"] = true;
+	L["Restore Defaults"] = "Standard wiederherstellen";
 		
-	L["Toggle Anchors"] = true;
+	L["Toggle Anchors"] = "Ankerpunkte verschieben";
 	L["Unlock various elements of the UI to be repositioned."] = true;
 	
-	L["Value Color"] = true;
-	L["Color some texts use."] = true;
+	L["Value Color"] = "Werte Farbe";
+	L["Color some texts use."] = "Farbe von benutzten Texten";
 end
 
 --NamePlate Config
 do
-	L["NamePlates"] = true;
+	L["NamePlates"] = "Namensplaketten";
 	L["NAMEPLATE_DESC"] = "Modify the nameplate settings."
-	L["Width"] = true;
-	L["Controls the width of the nameplate"] = true;
-	L["Height"] = true;
-	L["Controls the height of the nameplate"] = true;
-	L["Good Color"] = true;
+	L["Width"] = "Breite";
+	L["Controls the width of the nameplate"] = "Kontrolliert die Breite der Namensplaketten";
+	L["Height"] = "Höhe";
+	L["Controls the height of the nameplate"] = "Kontrolliert die Höhe der Namensplaketten";
+	L["Good Color"] = "Gute Farbe";
 	L["This is displayed when you have threat as a tank, if you don't have threat it is displayed as a DPS/Healer"] = true;
-	L["Bad Color"] = true;
+	L["Bad Color"] = "Schlechte Farbe";
 	L["This is displayed when you don't have threat as a tank, if you do have threat it is displayed as a DPS/Healer"] = true;
 	L["Good Transition Color"] = true;
 	L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = true;
 	L["Bad Transition Color"] = true;
 	L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = true;	
-	L["Castbar Height"] = true;
-	L["Controls the height of the nameplate's castbar"] = true;
-	L["Health Text"] = true;
+	L["Castbar Height"] = "Zauberleisten Höhe";
+	L["Controls the height of the nameplate's castbar"] = "Kontrolliert die Höhe der Zauberleiste";
+	L["Health Text"] = "Gesundheitstext";
 	L["Toggles health text display"] = true;
-	L["Personal Debuffs"] = true;
+	L["Personal Debuffs"] = "Persönliche Debuffs";
 	L["Display your personal debuffs over the nameplate."] = true;
 	L["Display level text on nameplate for nameplates that belong to units that aren't your level."] = true;
 	L["Enhance Threat"] = true;
 	L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = true;
 	L["Combat Toggle"] = true;
 	L["Toggles the nameplates off when not in combat."] = true;
-	L["Friendly NPC"] = true;
-	L["Friendly Player"] = true;
-	L["Neutral"] = true;
-	L["Enemy"] = true;
-	L["Threat"] = true;
-	L["Reactions"] = true;
-	L["Filters"] = true;
-	L['Add Name'] = true;
-	L['Remove Name'] = true;
-	L['Use this filter.'] = true;
+	L["Friendly NPC"] = "Freundlicher NPC";
+	L["Friendly Player"] = "Freundlicher Spieler";
+	L["Neutral"] = "Neutral";
+	L["Enemy"] = "Gegner";
+	L["Threat"] = "Aggro";
+	L["Reactions"] = "Reaktionen";
+	L["Filters"] = "Filter";
+	L['Add Name'] = "Namen hinzufügen";
+	L['Remove Name'] = "Namen entfernen";
+	L['Use this filter.'] = "Benutze diesen Filter";
 	L["You can't remove a default name from the filter, disabling the name."] = true;
-	L['Hide'] = true;
+	L['Hide'] = "Verstecken";
 	L['Prevent any nameplate with this unit name from showing.'] = true;
 	L['Custom Color'] = true;
 	L['Disable threat coloring for this plate and use the custom color.'] = true;
@@ -187,12 +187,12 @@ do
 	L['Set the scale of the nameplate.'] = true;
 	L['Good Scale'] = true;
 	L['Bad Scale'] = true;
-	L["Auras"] = true;
-	L['Healer Icon'] = true;
+	L["Auras"] = "Auren";
+	L['Healer Icon'] = "Heiler Symbol";
 	L['Display a healer icon over known healers inside battlegrounds.'] = true;
-	L['Restoration'] = true;
-	L['Holy'] = true;
-	L['Discipline'] = true;
+	L['Restoration'] = "Wiederherstellung";
+	L['Holy'] = "Heilig";
+	L['Discipline'] = "Disziplin";
 end
 
 --ClassTimers
@@ -200,33 +200,33 @@ do
 	L['ClassTimers'] = true;
 	L["CLASSTIMER_DESC"] = 'Display status bars above your player and target frame that show buff/debuff information.';
 	
-	L['Player Anchor'] = true;
+	L['Player Anchor'] = "Spieler Ankerpunkt";
 	L['What frame to anchor the class timer bars to.'] = true;
-	L['Target Anchor'] = true;
-	L['Trinket Anchor'] = true;
-	L['Player Buffs'] = true;
-	L['Target Buffs']  = true;
-	L['Player Debuffs'] = true;
-	L['Target Debuffs']  = true;	
-	L['Player'] = true;
-	L['Target'] = true;
+	L['Target Anchor'] = "Ziel Ankerpunkt";
+	L['Trinket Anchor'] = "Trinket Ankerpunkt";
+	L['Player Buffs'] = "Spieler Buffs";
+	L['Target Buffs']  = "Ziel Buffs";
+	L['Player Debuffs'] = "Spieler Debuffs";
+	L['Target Debuffs']  = "Ziel Debuffs";	
+	L['Player'] = "Spieler";
+	L['Target'] = "Ziel";
 	L['Trinket'] = true;
 	L['Procs'] = true;
-	L['Any Unit'] = true;
-	L['Unit Type'] = true;
-	L["Buff Color"] = true;
-	L["Debuff Color"] = true;
+	L['Any Unit'] = "Einige Einheiten";
+	L['Unit Type'] = "Einheiten Typ";
+	L["Buff Color"] = "Buff Farbe";
+	L["Debuff Color"] = "Debuff FArbe";
 	L['You have attempted to anchor a classtimer frame to a frame that is dependant on this classtimer frame, try changing your anchors again.'] = true;
-	L['Remove Color'] = true;
+	L['Remove Color'] = "Farbe entfernen";
 	L['Reset color back to the bar default.'] = true;
-	L['Add SpellID'] = true;
-	L['Remove SpellID'] = true;
+	L['Add SpellID'] = "ZauberID hinzufügen";
+	L['Remove SpellID'] = "ZauberID entfernen";
 	L['You cannot remove a spell that is default, disabling the spell for you however.'] = true;
-	L['Spell already exists in filter.'] = true;
-	L['Spell not found.'] = true;
-	L["All"] = true;
-	L["Friendly"] = true;
-	L["Enemy"] = true;
+	L['Spell already exists in filter.'] = "Zauber bereits im Filter vorhanden";
+	L['Spell not found.'] = "Zauber nicht gefunden";
+	L["All"] = "Alle";
+	L["Friendly"] = "Freundlich";
+	L["Enemy"] = "Gegner";
 end
 	
 --ACTIONBARS
@@ -251,37 +251,37 @@ do
 	
 	--KEYBINDING
 	L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = true;
-	L['Save'] = true;
-	L['Discard'] = true;
-	L['Binds Saved'] = true;
-	L['Binds Discarded'] = true;
-	L["All keybindings cleared for |cff00ff00%s|r."] = true;
+	L['Save'] = "Speichern";
+	L['Discard'] = "Verwerfen";
+	L['Binds Saved'] = "Belegungen gespeichert";
+	L['Binds Discarded'] = "Belegungen verwerfen";
+	L["All keybindings cleared for |cff00ff00%s|r."] = "Alle Tastaturbelegungen gelöscht für |cff00ff00%s|r.";
 	L[" |cff00ff00bound to |r"] = true;
-	L["No bindings set."] = true;
-	L["Binding"] = true;
+	L["No bindings set."] = "Keine Belegungen gesetzt";
+	L["Binding"] = "Belegung";
 	L["Key"] = true;	
 	L['Trigger'] = true;
 	
 	--CONFIG
-	L["ActionBars"] = true;
-	L["Keybind Mode"] = true;
+	L["ActionBars"] = "Aktionsleisten";
+	L["Keybind Mode"] = "Tastaturbelegung";
 		
-	L['Macro Text'] = true;
-	L['Display macro names on action buttons.'] = true;
-	L['Keybind Text'] = true;
+	L['Macro Text'] = "Makro Text";
+	L['Display macro names on action buttons.'] = "Zeigt den Makro Text auf der Aktionsleiste an.";
+	L['Keybind Text'] = "Tastaturbelegungs Text";
 	L['Display bind names on action buttons.'] = true;
-	L['Button Size'] = true;
+	L['Button Size'] = "Button Größe";
 	L['The size of the main action buttons.'] = true;
-	L['Button Spacing'] = true;
+	L['Button Spacing'] = "Button Abstand";
 	L['The spacing between buttons.'] = true;
-	L['Bar '] = true;
+	L['Bar '] = "Leiste";
 	L['Backdrop'] = true;
 	L['Toggles the display of the actionbars backdrop.'] = true;
 	L['Buttons'] = true;
 	L['The ammount of buttons to display.'] = true;
-	L['Buttons Per Row'] = true;
+	L['Buttons Per Row'] = "Buttons pro Zeile";
 	L['The ammount of buttons to display per row.'] = true;
-	L['Anchor Point'] = true;
+	L['Anchor Point'] = "Ankerpunkt";
 	L['The first button anchors itself to this point on the bar.'] = true;
 	L['Height Multiplier'] = true;
 	L['Width Multiplier'] = true;
@@ -290,30 +290,30 @@ do
 	L["This works like a macro, you can run different situations to get the actionbar to page differently.\n Example: '[combat] 2;'"] = true;
 	L['Visibility State'] = true;
 	L["This works like a macro, you can run different situations to get the actionbar to show/hide differently.\n Example: '[combat] show;hide'"] = true;
-	L['Restore Bar'] = true;
+	L['Restore Bar'] = "Leiste zurücksetzen";
 	L['Restore the actionbars default settings'] = true;
 	L['Set the font size of the action buttons.'] = true;
-	L['Mouse Over'] = true;
+	L['Mouse Over'] = "Mausover";
 	L['The frame is not shown unless you mouse over the frame.'] = true;
-	L['Pet Bar'] = true;
-	L['Alt-Button Size'] = true;
+	L['Pet Bar'] = "Begleisterleiste";
+	L['Alt-Button Size'] = "Alt-Button Größe";
 	L['The size of the Pet and Shapeshift bar buttons.'] = true;
 	L['ShapeShift Bar'] = true;
-	L['Cooldown Text'] = true;
+	L['Cooldown Text'] = "Abklingzeittext";
 	L['Display cooldown text on anything with the cooldown spiril.'] = true;
 	L['Low Threshold'] = true;
 	L['Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red'] = true;
 	L['Expiring'] = true;
 	L['Color when the text is about to expire'] = true;
-	L['Seconds'] = true;
+	L['Seconds'] = "Sekunden";
 	L['Color when the text is in the seconds format.'] = true;
-	L['Minutes'] = true;
+	L['Minutes'] = "Minuten";
 	L['Color when the text is in the minutes format.'] = true;
-	L['Hours'] = true;
+	L['Hours'] = "Stunden";
 	L['Color when the text is in the hours format.'] = true;
-	L['Days'] = true;
+	L['Days'] = "Tage";
 	L['Color when the text is in the days format.'] = true;
-	L['Totem Bar'] = true;
+	L['Totem Bar'] = "Totemleiste";
 end
 
 --UNITFRAMES
